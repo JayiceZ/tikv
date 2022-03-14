@@ -80,6 +80,7 @@ impl ReadPoolHandle {
     where
         F: Future<Output = ()> + Send + 'static,
     {
+        let _ = hex::encode_upper("12");
         match self {
             ReadPoolHandle::FuturePools {
                 read_pool_high,

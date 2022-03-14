@@ -1,0 +1,4 @@
+disallowed-methods = [
+    # Can use a string as the path of the disallowed method.
+    { path = "hex::encode_upper", reason = "wwwessdadasdasasdas" },
+]

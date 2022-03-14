@@ -1,7 +1,7 @@
 // Copyright 2019 TiKV Project Authors. Licensed under Apache-2.0.
 
 //! Provides wrappers for types that comes from 3rd-party and does not implement slog::Value.
-
+#![allow(clippy::disallowed_methods)]
 #[macro_use]
 extern crate slog;
 #[allow(unused_extern_crates)]
